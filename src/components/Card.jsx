@@ -1,16 +1,16 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import { Formulario } from "./Formulario";
+import { DescargaFormularios } from "./DescargaFormularios";
 
-export const Card = ({ nombre }) => {
-  const [isOpen, setIsOpen] = useState(false)
+export const Card = ({ nombre, isOpen, setIsOpen }) => {
+  
 
   return (
     <>
       {
         isOpen && (
-          <Formulario setIsOpen={setIsOpen}></Formulario>
+          <DescargaFormularios nombre={nombre} isOpen={isOpen} setIsOpen={setIsOpen} ></DescargaFormularios>
                  )
       }
       <div className="card">
