@@ -1,17 +1,45 @@
-import { useState } from "react";
+
 import { Card } from "./Card";
 import { ModalProvider } from "./ModalProvider";
 
 export const Principal = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  
   return (
     <ModalProvider>
       <div className="flex items-center justify-center min-h-screen container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <Card nombre="zurich"  isOpen={isOpen} setIsOpen={setIsOpen}/>
-          <Card nombre="allianz" isOpen={isOpen} setIsOpen={setIsOpen}/>
-          <Card nombre="noble" isOpen={isOpen} setIsOpen={setIsOpen}/>
-          <Card nombre="premiar" isOpen={isOpen} setIsOpen={setIsOpen}/>
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <Card nombre="Allianz" />
+          <Card nombre="Asociart"/>
+          <Card nombre="ATM"/>
+          <Card nombre="Berkley"/>
+          <Card nombre="Cauciones"/>
+          <Card nombre="Chubb" />
+          <Card nombre="Colon"/>
+          <Card nombre="Experta ART"/>
+          <Card nombre="Federación"/>
+          <Card nombre="Galeno ART"/>
+          <Card nombre="Hanseatica" />
+          <Card nombre="HDI"/>
+          <Card nombre="La Holando"/>
+          <Card nombre="Libra"/>
+          <Card nombre="Mapfre"/>
+          <Card nombre="Mercantil" />
+          <Card nombre="Meridional"/>
+          <Card nombre="Noble"/>
+          <Card nombre="Pacifico"/>
+          <Card nombre="Plus"/>
+          <Card nombre="QBE ART" />
+          <Card nombre="RIO URUGUAY"/>
+          <Card nombre="Rivadavia"/>
+          <Card nombre="Sancor"/>
+          <Card nombre="Prevencion"/>
+          <Card nombre="SMG"/>
+          <Card nombre="SMG Life"/>
+          <Card nombre="Sura" />
+          <Card nombre="Testimonio"/>
+          <Card nombre="TPC"/>
+          <Card nombre="Victoria"/>
+          <Card nombre="Zurich"/>
         </div>
       </div>
     </ModalProvider>

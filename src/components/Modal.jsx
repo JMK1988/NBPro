@@ -9,7 +9,7 @@ export const Modal = () => {
         <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
         <div className="bg-white p-5 rounded flex flex-col justify-center items-center gap-5 ">
           <div>
-          <iframe width="700" height="500" src="https://www.youtube.com/embed/vChkQjv62uA" title="Conoce NB Pro" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/vChkQjv62uA" title="Conoce NB Pro"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>
         
           <div>

@@ -6,7 +6,14 @@ export default {
     "./src/**/*.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      extend:{
+        'no.select':{
+          userSelect: 'none',
+        }
+      }
+      
+    },
   },
   plugins: [
     require('@tailwindcss/forms')
