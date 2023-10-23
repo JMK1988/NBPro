@@ -17,9 +17,7 @@ export const Card = ({ nombre }) => {
         <div className="flex justify-center  rounded-xl overflow-hidden flex-grow">
           <img src={`/${nombre}.png`} alt={nombre} className="object-contain no-select" />
         </div>
-        <h5 className="md:text-xl font-medium my-4 uppercase ">
-          {nombre}
-        </h5>
+        
         <div className="flex justify-between flex-col w-full items-center">
           <button
             className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-semibold hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full"
