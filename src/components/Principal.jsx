@@ -7,7 +7,7 @@ export const Principal = () => {
   return (
     <ModalProvider>
       <div className="flex items-center justify-center min-h-screen container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
           <Card nombre="Allianz" />
           <Card nombre="Asociart"/>
           <Card nombre="ATM"/>
@@ -27,7 +27,6 @@ export const Principal = () => {
           <Card nombre="Meridional"/>
           <Card nombre="Noble"/>
           <Card nombre="Pacifico"/>
-          <Card nombre="Plus"/>
           <Card nombre="QBE ART" />
           <Card nombre="RIO URUGUAY"/>
           <Card nombre="Rivadavia"/>

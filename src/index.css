@@ -4,6 +4,7 @@
 
 @layer components{
     .card{
-        @apply rounded-xl shadow-lg
+        @apply rounded-xl shadow-lg min-w-min
+        
     }
 }
