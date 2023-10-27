@@ -3,7 +3,6 @@
 import datosArchivos from '../../Scripts/datosArchivos.json';
 
 import { useEffect, useState } from "react"
-const archivillo = datosArchivos;
 const datosArchi = datosArchivos;
 
 export const DescargaFormularios = ({ nombre, setIsOpen, isOpen }) => {
