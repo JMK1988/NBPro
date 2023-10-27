@@ -6,13 +6,14 @@ export default {
     "./src/**/*.jsx"
   ],
   theme: {
+    
     extend: {
-      extend:{
-        'no.select':{
+      extend: {
+        'no.select': {
           userSelect: 'none',
         }
       }
-      
+
     },
   },
   plugins: [

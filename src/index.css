@@ -7,4 +7,7 @@
         @apply rounded-xl shadow-lg min-w-min
         
     }
+    .card2{
+        @apply rounded-xl shadow-lg min-w-min border-red-600 border-2
+    }
 }

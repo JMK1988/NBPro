@@ -9,15 +9,15 @@ export const Card = ({ nombre }) => {
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
   };
+  const cardClassName = nombre === "Logo NBP corto 15" ? "card2" : "card";
 
   return (
-    <div className="card">
+    <div className={cardClassName}>
       {isOpen && <DescargaFormularios nombre={nombre} setIsOpen={setIsOpen} isOpen={isOpen}/>}
       <div className="p-5 flex flex-col h-80 items-center">
         <div className="flex justify-center  rounded-xl overflow-hidden flex-grow">
           <img src={`/${nombre}.png`} alt={nombre} className="object-contain no-select" />
         </div>
-        
         <div className="flex justify-between flex-col w-full items-center">
           <button
             className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-semibold hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full"
