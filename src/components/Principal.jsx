@@ -5,6 +5,7 @@ import { ModalProvider } from "./ModalProvider";
 import datosArchivos from '../../Scripts/datosArchivos.json';
 import Card2 from "./Card2";
 import Card3 from "./Card3";
+import Card4 from "./Card4";
 
 export const Principal = () => {
   const datos = datosArchivos;
@@ -14,6 +15,7 @@ export const Principal = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
         <Card2 nombre="requisitos" className="bg-red-900"/>
         <Card3 nombre="Logo NBP corto 15"/>
+        <Card4/>
           {Object.keys(datos).map((nombre, index) =>(
             <Card key={index} nombre={nombre} imagenes={datos[nombre]} />
           ))}
