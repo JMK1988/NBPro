@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .card{
-        @apply rounded-xl shadow-lg min-w-min
-        
+@layer components {
+    .card {
+        @apply rounded-xl shadow-lg;
+
+
+
+        .card2 {
+            @apply rounded-xl shadow-lg border-red-600 border-2;
+        }
     }
-    .card2{
-        @apply rounded-xl shadow-lg min-w-min border-red-600 border-2
-    }
+
 }
+
+@import "./components/card";
+@import "./components/card2";
+@import "./components/card3";
+@import "./components/card4";

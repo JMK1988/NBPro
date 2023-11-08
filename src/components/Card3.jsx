@@ -19,7 +19,7 @@ const Card3 = ({ nombre }) => {
     };
 
     return (
-        <div className="card2">
+        <div className="card card2">
             <div className="p-5 flex flex-col h-80 items-center">
                 <div className="flex justify-center rounded-xl overflow-hidden flex-grow">
                     <img src={`/${nombre}.png`} alt={nombre} className="object-contain no-select" />
@@ -35,7 +35,7 @@ const Card3 = ({ nombre }) => {
             </div>
             {showModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-10 max-h-screen">
-                    <div className="bg-white p-5 rounded-xl flex flex-col justify-center items-center gap-5">
+                    <div className="bg-white p-5 rounded-xl flex flex-col justify-center items-center gap-3">
                         <a
                             className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-medium hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full"
                             href="../../public/NBP Asegurado_ Carta de nombramiento designacion .docx"
@@ -46,7 +46,7 @@ const Card3 = ({ nombre }) => {
                             download="../../public/NBP Organizador Carta de nombramiento designacion .docx"
                         >NBP Organizador Carta de nombramiento designacion</a>
                         <button
-                            className="bg-red-900 py-1 px-6 rounded-lg text-white font-medium mt-5 hover:bg-red-700 focus:scale-95 transition-all duration-200 ease-out"
+                            className="bg-red-900 py-1 px-6 rounded-lg text-white font-medium mt-3 hover:bg-red-700 focus:scale-95 transition-all duration-200 ease-out"
                             onClick={closeModal}
                         >
                             Cerrar
