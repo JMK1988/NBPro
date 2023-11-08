@@ -6,16 +6,10 @@
     .card {
         @apply rounded-xl shadow-lg;
 
+    }
 
-
-        .card2 {
-            @apply rounded-xl shadow-lg border-red-600 border-2;
-        }
+    .card2 {
+        @apply rounded-xl shadow-lg border-red-600 border-2;
     }
 
 }
-
-@import "./components/card";
-@import "./components/card2";
-@import "./components/card3";
-@import "./components/card4";

@@ -19,7 +19,7 @@ const Card3 = ({ nombre }) => {
     };
 
     return (
-        <div className="card card2">
+        <div className="card2">
             <div className="p-5 flex flex-col h-80 items-center">
                 <div className="flex justify-center rounded-xl overflow-hidden flex-grow">
                     <img src={`/${nombre}.png`} alt={nombre} className="object-contain no-select" />
