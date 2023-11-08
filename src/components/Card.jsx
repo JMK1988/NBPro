@@ -14,7 +14,7 @@ export const Card = ({ nombre }) => {
   return (
     <div className={cardClassName}>
       {isOpen && <DescargaFormularios nombre={nombre} setIsOpen={setIsOpen} isOpen={isOpen}/>}
-      <div className="p-5 flex flex-col h-80 items-center">
+      <div className="p-5 flex flex-col h-72 items-center">
         <div className="flex justify-center  rounded-xl overflow-hidden flex-grow">
           <img src={`/${nombre}.png`} alt={nombre} className="object-contain no-select" />
         </div>
