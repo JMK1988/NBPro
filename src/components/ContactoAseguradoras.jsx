@@ -3,6 +3,7 @@
 
 import React, { useState } from 'react';
 import datosContactos from '../../Scripts/datosContactos.json';
+import { Header } from './Header';
 
 const ContactoAseguradoras = () => {
     const [showModal, setShowModal] = useState(false);
@@ -43,13 +44,6 @@ const ContactoAseguradoras = () => {
                     console.log('Valor no válido para realizar llamada');
                 }
                 break;
-                case 'sms':
-                    if (value) {
-                        window.alert(`Mensaje: ${value}`);
-                    } else {
-                        console.log('No hay mensaje disponible para mostrar');
-                    }
-                    break;
             default:
                 console.log('Tipo de contacto no compatible');
         }
@@ -57,6 +51,7 @@ const ContactoAseguradoras = () => {
 
     return (
         <>
+        <Header/>
             {showModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-10 max-h-screen" style={{ overflowY: "scroll" }}>
                     <div className="bg-white p-5 rounded-xl flex flex-col justify-center items-center gap-3 tarjeta">
@@ -65,7 +60,7 @@ const ContactoAseguradoras = () => {
                                 {Object.entries(selectedContact.contactos).map(([contactType, contactValue], index) => (
                                     <button
                                         key={index}
-                                        className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-semibold hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full"
+                                        className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-semibold hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full uppercase"
                                         onClick={() => handleContact(contactType, contactValue)}
                                     >
                                         {contactType}
@@ -95,7 +90,7 @@ const ContactoAseguradoras = () => {
                         </div>
                         <div className="flex justify-between flex-col w-full items-center">
                             <button
-                                className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-semibold hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full"
+                                className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font font-semibold hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full uppercase"
                             >
                                 Contacto
                             </button>
