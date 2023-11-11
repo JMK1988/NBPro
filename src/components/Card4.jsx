@@ -34,7 +34,7 @@ const Card4 = ({ nombre }) => {
                 </div>
             </div>
             {showModal && (
-                <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-10 max-h-screen">
+                <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-10 max-h-screen " style={{ overflowY: "scroll" }}>
                     <div className="bg-white p-5 rounded-xl flex flex-col justify-center items-center gap-3 tarjeta">
                         <p><b>Tecnico: </b>Cotizaciones de todos los Ramos</p>
                         <a

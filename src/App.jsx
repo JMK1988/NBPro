@@ -1,15 +1,19 @@
-import { Footer } from "./components/Footer"
-import { Header } from "./components/Header"
-import { ModalVideo } from "./components/ModalVideo"
-import { Principal } from "./components/Principal"
+import { Navigate, Route, Routes } from "react-router-dom";
+import  Home  from "./components/Home";
+import Card4 from "./components/Card4";
+import ContactoAseguradoras from "./components/ContactoAseguradoras";
 
 function App() {
   return (
     <>
-    <Header></Header>
-    <Principal></Principal>
-    <ModalVideo></ModalVideo>
-    <Footer></Footer>
+    <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/nbpro' element={<Card4></Card4>}></Route>
+      <Route path='/contactoAseguradoras' element={<ContactoAseguradoras></ContactoAseguradoras>} ></Route>
+      <Route path='/*' element={<Navigate to='/'/>}></Route>
+    </Routes>
+
+    
     
     </>
   )

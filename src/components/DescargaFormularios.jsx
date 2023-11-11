@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import datosArchivos from '../../Scripts/datosArchivos.json';
-
 import { useEffect, useState } from "react"
 const datosArchi = datosArchivos;
 

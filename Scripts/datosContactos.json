@@ -1,122 +1,139 @@
 {
-    "companias": [
-      {
-        "Allianz": {
-          "Work": "+54 9 11 4329-9191",
-          "0800": "+54080088824324",
-          "WhatsApp": "+54 9 11 3314-1563",
-          "SMS": "50-150"
-        }
-      },
-      {
-        "Zurich": {
-          "Opción 4 Siniestros": "0800 333 987424",
-          "SMS con SOS+Patente": "70 70 3",
-          "Desde Exterior": "11 4129-8100",
-          "Remolque Grua": "0800 222 1600",
-          "Web": "https://zurihelp.redsos.com.ar/home/login"
-        }
-      },
-      {
-        "Mercantil Andina": {
-          "Email": "asistenciamecanica@lamercantil.com.ar",
-          "Web": "https://tuasistencia.redsos.com.ar/home/login",
-          "WhatsApp": "1128080012",
-          "Mercantil": "0800-777-2634",
-          "Mercantil Alt": "11 4335-5792",
-          "SMS": "70703 \"Patente\""
-        }
-      },
-      {
-        "Sancor Seguros": {
-          "Remolque 0800": "0800 333 2766",
-          "WhatsApp Grúa": "+54 9 3493 52-0650",
-          "Atención al cliente": "0800 444 28500",
-          "Denuncia de siniestros automotores": "0800 777 4643"
-        }
-      },
-      {
-        "HDI Seguros": {
-          "Celular": "+54 9 8003332927",
-          "0800": "0800 444 4587",
-          "WhatsApp": "+54 9 11 39862669",
-          "Central alarma": "0800 666 2202",
-          "Asistencia automotor": "(011) 4136 - 0691"
-        }
-      },
-      {
-        "Rivadavia": {
-          "0800": "0810 999 3200",
-          "Lesionados / fallecidos": "0-810-222-3456",
-          "Whatsapp": "+54 9 11 3989 8000",
-          "Web": "https://tuasistencia.redsos.com.ar/",
-          "Email": "info@segurosrivadavia.com"
-        }
-      },
-      {
-        "Rio Uruguay": {
-          "Atencion al cliente": "0800 888 7787",
-          "Auxilio mecánico": "0800 444 1441",
-          "Whatsapp": "+54 9 3442657777",
-          "Web": "www.rus.com.ar"
-        }
-      },
-      {
-        "ATM Seguros": {
-          "0800": "0810 345 0492",
-          "Whatsapp": "15 6826 2355",
-          "SMS": "70703"
-        }
-      },
-      {
-        "MAPFRE Seguros": {
-          "Telefono": "0800 999 7424",
-          "Whatsapp": "+54 9 11 6299 6922"
-        }
-      },
-      {
-        "Galeno Seguros": {
-          "Telefono 0800": "0800 777 5433",
-          "Telefono fijo": "+ 54 9 11 3874 4660",
-          "Email": "callseguros@galenoseguros.com.ar"
-        }
-      },
-      {
-        "Experta Seguros": {
-          "Telefono": "0800 777 7278",
-          "Whatsapp": "+ 54 9 11 4704 1830",
-          "Web": "https://www.experta.com.ar/contactenos/",
-          "Email": "clientes@experta.com.ar"
-        }
-      },
-      {
-        "Provincia Seguros": {
-          "Telefono": "0810 222 2444",
-          "Telefono fijo": "011 4331 3887",
-          "Whatsapp": "+54 9 11 21837633"
-        }
-      },
-      {
-        "Victoria Seguros": {
-          "Telefono fijo": "4322 1100",
-          "Whatsapp": "11 2808 0012",
-          "Web": "www.victoria.com.ar/seguros-de-automotores-victoria"
-        }
-      },
-      {
-        "Federacion Patronal": {
-          "Contacto 1": "0800 222 0022",
-          "Contacto 2": "0800 800 0022",
-          "Whatsapp": "+ 54 9 2214290200",
-          "SMS": "70703"
-        }
-      },
-      {
-        "SMG Seguros": {
-          "Telefono": "0800 222 7854",
-          "Telefono fijo": "0810 333 3764"
-        }
+  "companias": [
+    {
+      "nombre": "Allianz",
+      "contactos": {
+        "WhatsApp": "+54 9 11 3314-1563",
+        "web": null,
+        "sms": "50-150 SMS: Allianz",
+        "telefono": "+54 9 11 4329-9191",
+        "0800": "+5408008882432"
       }
-    ]
-  }
-  
+    },
+    {
+      "nombre": "ATM",
+      "contactos": {
+        "WhatsApp": "15 6826 2355",
+        "SMS": "70703",
+        "telefono": "0810 345 0492",
+        "telefono_fijo": "0800 222 7854"
+      }
+    },
+    {
+      "nombre": "Experta ART",
+      "contactos": {
+        "telefono": "0800 777 7278",
+        "WhatsApp": "+ 54 9 11 4704 1830",
+        "web": "https://www.experta.com.ar/contactenos/",
+        "email": "clientes@experta.com.ar"
+      }
+    },
+    {
+      "nombre": "Federación",
+      "contactos": {
+        "WhatsApp": "+ 54 9 2214290200",
+        "SMS": "70703",
+        "contacto_1": "0800 222 0022",
+        "contacto_2": "0800 800 0022"
+      }
+    },
+    {
+      "nombre": "Galeno ART",
+      "contactos": {
+        "telefono_0800": "0800 777 5433",
+        "telefono_fijo": "+ 54 9 11 3874 4660",
+        "email": "callseguros@galenoseguros.com.ar"
+      }
+    },
+    {
+      "nombre": "HDI",
+      "contactos": {
+        "WhatsApp": "+54 9 11 39862669",
+        "web": null,
+        "sms": null,
+        "telefono": "+54 9 8003332927",
+        "0800": "0800 444 4587",
+        "central_alarma": "0800 666 2202",
+        "asistencia_automotor": "(011) 4136 - 0691"
+      }
+    },
+    {
+      "nombre": "Mapfre",
+      "contactos": {
+        "WhatsApp": "+54 9 11 6299 6922",
+        "telefono": "0800 999 7424"
+      }
+    },
+    {
+      "nombre": "Mercantil",
+      "contactos": {
+        "WhatsApp": "1128080012",
+        "web": "https://tuasistencia.redsos.com.ar/home/login",
+        "sms": "70703 \"Patente\"",
+        "email": "asistenciamecanica@lamercantil.com.ar",
+        "telefono": "0800-777-2634",
+        "telefono_alt": "11 4335-5792"
+      }
+    },
+    {
+      "nombre": "Provincia Seguros",
+      "contactos": {
+        "telefono": "0810 222 2444",
+        "telefono_fijo": "011 4331 3887",
+        "WhatsApp": "+54 9 11 21837633"
+      }
+    },
+    {
+      "nombre": "Rivadavia",
+      "contactos": {
+        "WhatsApp": "+54 9 11 3989 8000",
+        "web": "https://tuasistencia.redsos.com.ar/",
+        "email": "info@segurosrivadavia.com"
+      }
+    },
+    {
+      "nombre": "RIO URUGUAY",
+      "contactos": {
+        "atencion_al_cliente": "0800 888 7787",
+        "auxilio_mecanico": "0800 444 1441",
+        "WhatsApp": "+54 9 3442657777",
+        "web": "www.rus.com.ar"
+      }
+    },
+    {
+      "nombre": "SMG",
+      "contactos": {
+        "telefono": "0800 222 7854",
+        "telefono_fijo": "0810 333 3764"
+      }
+    },
+    {
+      "nombre": "Sancor",
+      "contactos": {
+        "WhatsApp Grúa": "+54 9 3493 52-0650",
+        "remolque 0800": "0800 333 2766",
+        "atencion_al_cliente": "0800 444 2850",
+        "denuncia_de_siniestros_automotores": "0800 777 4643"
+      }
+    },
+    {
+      "nombre": "Victoria",
+      "contactos": {
+        "telefono_fijo": "4322 1100",
+        "WhatsApp": "11 2808 0012",
+        "web": "www.victoria.com.ar/seguros-de-automotores-victoria"
+      }
+    },
+    {
+      "nombre": "Zurich",
+      "contactos": {
+        "WhatsApp": "+54 9 11 39862669",
+        "web": "https://zurihelp.redsos.com.ar/home/login",
+        "sms": "70 70 3 SMS con SOS+Patente",
+        "telefono": "0800 333 9874",
+        "remolque_grua": "0800 222 1600",
+        "desde_exterior": "11 4129-8100"
+      }
+    }
+  ]
+}
