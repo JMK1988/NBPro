@@ -29,7 +29,7 @@ const Card3 = ({ nombre }) => {
                         className="text-center bg-gray-600 text-white py-1 px-6 rounded-lg font-medium hover:bg-gray-300 focus:scale-95 transition-all duration-200 ease-out w-full"
                         onClick={openModal}
                     >
-                        Designaciones
+                    Designaciones
                     </button>
                 </div>
             </div>
