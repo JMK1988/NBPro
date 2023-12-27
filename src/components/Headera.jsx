@@ -1,6 +1,6 @@
 
-export const Header = () => {
 
+export const Headera = () => {
   return (
     <>
     <div className="container mx-auto flex items-center justify-center py-5 ">
@@ -8,8 +8,7 @@ export const Header = () => {
     </div>
     <div className="container mx-auto">
     </div>
-    <h1 className="text-center text-4xl mb-5 font-semibold">Formularios de Altas</h1>
+    <h1 className="text-center text-4xl mb-5 font-semibold">Contactos asistencia</h1>
     </>
-    
   )
 }

@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import datosContactos from '../../Scripts/datosContactos.json';
-import { Header } from './Header';
+import { Headera } from './Headera';
 
 const ContactoAseguradoras = () => {
     const [showModal, setShowModal] = useState(false);
@@ -51,8 +51,9 @@ const ContactoAseguradoras = () => {
 
     return (
         <>
-        <Header/>
+        <Headera/>
             {showModal && (
+                
                 <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-10 max-h-screen" style={{ overflowY: "scroll" }}>
                     <div className="bg-white p-5 rounded-xl flex flex-col justify-center items-center gap-3 tarjeta">
                         {selectedContact && (
